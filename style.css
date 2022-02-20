@@ -2,21 +2,24 @@ body {
   height:95vh;
   width: 95vw;
   display: flex;
-  justify-content: center;
-  align-items: center;
   background: black;
+  margin: 0 auto;
 }
 
-.eye{
+
+.eye{ 
   width: 250px;
   height: 250px;
-  background: teal;
+  background: #4fc3f7;
+  background-image: radial-gradient( white , #4fc3f7, blue);
   display: flex;
   border:none;
   align-items: center;
   justify-content: center;
   margin: 0 1rem;
-  clip-path:  circle(50% at center);
+  clip-path:  ellipse(60% 60% at center);
+  /* box-shadow: 0px 0px 40px 0.1px #0ff; */
+  border-radius: 50%;
   position: relative;
   margin: auto;
 }
